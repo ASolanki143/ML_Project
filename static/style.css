@@ -1,0 +1,61 @@
+/* Apply smooth gradient background */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+/* Upload box styling */
+.container {
+    width: 400px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(15px);
+    text-align: center;
+}
+
+/* Heading styling */
+h2 {
+    font-size: 1.8rem;
+    color: #00e6ff;
+    margin-bottom: 15px;
+}
+
+/* Form input and button styling */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input[type="file"] {
+    padding: 10px;
+    background: #ffffff;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button {
+    padding: 12px;
+    background-color: #00e6ff;
+    color: #121212;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: #66ffff;
+}
